@@ -1,0 +1,10 @@
+{
+  "name": "byering-company-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:blog": "node scripts/generate-blog-pages.mjs",
+    "test": "node --test scripts/*.test.mjs"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/privacy/?$", "dest": "/privacy/index.html" },
+    { "src": "/terms/?$", "dest": "/terms/index.html" },
+    { "src": "/blog/(.*)", "dest": "/blog/not-found/index.html" }
+  ]
+}
